@@ -1,0 +1,59 @@
+
+
+#caption{
+    position: relative; 
+    /* top:-25px; */
+    top: -70px;
+    color: greenyellow;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 45px;
+    /* background-color: rgb(128,128,128); */
+    background-color: rgba(0,0,0, 0.5);
+}
+
+
+.jumbotron{
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    font-weight: bolder !important;
+}
+
+#goodGuesses, #lines, #badGuesses{
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+
+
+p{
+    font-weight: bolder !important;
+
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+#goodGuesses{
+    /* background-color: red; */
+    margin-bottom: 0;
+}
+#instructions{
+    text-align: center;
+    font-size: 4rem;
+}
+.page-header{
+    /* background-color: red; */
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 5px;
+    height: 230px;
+}
+
+#roundNumber{
+    margin-top: 0;
+    padding-top: 0;
+}

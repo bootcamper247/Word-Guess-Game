@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Word Guess Game</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+</head>
+
+<body onload="startGame()">
+    <div class="container page-header">
+
+        <div id="logo">
+            <img id="river-img" class="img-responsive" src="assets/images/titleimage.png" alt="River" style="width:100%; height: 220px;">
+            <h4 id="caption" >Guess The Rivers</h4>
+        </div>
+
+    </div>
+    <br><br>
+
+    <!-- Creating Grid for placing elements on page -->
+    <div class="container">
+        <div class="jumbotron">
+            <div class="row">
+                <h2 id="instructions">Press any key to get started</h2>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col-xs-6">
+                    <p>Current Word</p>
+                    <p id="goodGuesses"></p>
+                    <p id="lines" style="margin-top: 0;"></p>
+                    <!-- <p style = "float:left;">Guesses Left&nbsp&nbsp&nbsp&nbsp</p> -->
+                    <p>Guesses Remaining</p>
+                    <p id="guessesLeft">Ï</p>
+                    <p>Incorrect Guesses</p>
+                    <p id="badGuesses"></p>
+                </div>
+
+                <div class="col-xs-6">
+                    <p>Round</p>
+                    <p id="roundNumber"></p>
+                    <!-- <span>of 6</span> -->
+                    <p>Wins</p>
+                    <p id="wins"></p>
+                    <p>Losses</p>
+                    <p id="losses"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            <!-- jQuery library -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+            <!-- Latest compiled JavaScript -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+            <script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
