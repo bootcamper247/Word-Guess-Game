@@ -1,6 +1,8 @@
 ##### Georgia Tech Coding Boot Camp at Prototype Prime
 
 # Word Guess Game
+https://bootcamper247.github.io/Word-Guess-Game/
+
 ## HTML/CSS/JavaScript
 - Use key events to listen for the letters that your players will type.
 - Display the following on the page:
