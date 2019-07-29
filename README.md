@@ -11,7 +11,7 @@
 - As the user guesses the correct letters, reveal them as: m a d o _  _ a.
 - Number of Guesses Remaining: (# of guesses remaining for the user).
 - Letters Already Guessed: (Letters the user has guessed, displayed like L Z Y H).
-- After the user wins/loses a round, the game automatically displays corrsponding blanks for next word to play.
+- After the user wins/loses a round, the game automatically displays corresponding blanks for next word to play.
 - Plays an appropriate sound when the user guesses their word correctly/incorrectly and at end of game.
 
 
